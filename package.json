@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@types/sortablejs": "^1.15.8",
+    "@vueuse/core": "^13.7.0",
     "element-plus": "^2.11.1",
     "pinia": "^3.0.3",
     "sortablejs": "^1.15.6",
