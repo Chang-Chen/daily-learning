@@ -20,13 +20,13 @@ const instance = useSortable(container, list);
 </script>
 
 <template>
-  <div>
+  <div style="display: flex; gap: 10px">
     <ul ref="container" style="display: flex; flex-direction: column; align-items: center; gap: 20px">
       <li v-for="(item, index) in list" :key="index">
         <el-button type="primary" block>{{ item.name }}</el-button>
       </li>
     </ul>
-    <div>{{ JSON.stringify(list) }}</div>
+    <pre>{{ JSON.stringify(list, null, 2) }}</pre>
   </div>
 </template>
 

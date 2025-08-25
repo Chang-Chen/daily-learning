@@ -7,7 +7,7 @@ const funcList = ref([
     routePath: '/useSortable_v1',
   },
   {
-    title: 'useSortable-无渲染组件版本',
+    title: '无渲染组件版本-useSortable',
     routePath: '/useSortable_v2',
   }
 ]);

@@ -8,7 +8,7 @@ export function useSortable<T extends object>(container: TemplateRef, list: Ref<
             ...options,
             animation: 500,
             onUpdate(event) {
-                options?.onUpdate(event);
+                options?.onUpdate?.(event);
                 const {newIndex, oldIndex} = event;
                 const oldValue = list.value[oldIndex];
                 list.value.splice(oldIndex, 1);
