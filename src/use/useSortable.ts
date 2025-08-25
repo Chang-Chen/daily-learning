@@ -1,7 +1,7 @@
 import {onMounted, onUnmounted, type Ref, shallowRef, type TemplateRef} from "vue";
 import Sortable from "sortablejs";
 
-export function useSortable<T extends object>(container: TemplateRef, list: Ref<T[]>, options?: Sortable.Options): Sortable {
+export function useSortable<T extends object>(container: TemplateRef<HTMLElement>, list: Ref<T[]>, options?: Sortable.Options): Sortable {
     let instance = shallowRef();
     onMounted(() => {
         instance.value = Sortable.create(container.value, {
