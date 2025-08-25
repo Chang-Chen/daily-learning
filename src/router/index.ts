@@ -12,6 +12,9 @@ const router = createRouter({
         }, {
             path: '/useSortable_v2',
             component: () => import('@/view/sortablejs_v2.vue')
+        }, {
+            path: '/asyncComponent',
+            component: () => import('@/view/asyncComponent.vue')
         }
     ],
 })

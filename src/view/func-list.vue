@@ -5,10 +5,12 @@ const funcList = ref([
   {
     title: '封装-useSortable',
     routePath: '/useSortable_v1',
-  },
-  {
+  }, {
     title: '无渲染组件版本-useSortable',
     routePath: '/useSortable_v2',
+  }, {
+    title: '异步加载组件-asyncComponent',
+    routePath: '/asyncComponent',
   }
 ]);
 </script>
