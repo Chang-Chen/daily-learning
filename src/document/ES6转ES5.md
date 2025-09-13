@@ -1,6 +1,5 @@
-/**
- * ES6的写法
- */
+### ES6的写法
+```js
 class Person {
 
     #aaa = 'xxx';
@@ -21,10 +20,10 @@ class Person {
         console.log('hello world');
     }
 }
+```
 
-
-
-// 私有变量通过闭包实现
+### 私有变量通过闭包实现
+```js
 var Person = (function() {
     // 私有变量
     var _aaa = 'xxx';
@@ -55,3 +54,4 @@ var Person = (function() {
     
     return Person;
 })();
+```

@@ -1,3 +1,6 @@
+### 手写PromiseAll方法-简易版
+
+```js
 /**
  * 手撕 Promise.all
  * @param promises Promise队列
@@ -19,3 +22,4 @@ export function PromiseAll(promises) {
         });
     });
 }
+```

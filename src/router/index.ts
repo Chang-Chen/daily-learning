@@ -7,6 +7,9 @@ const router = createRouter({
             path: '/',
             component: () => import('@/view/func-list.vue')
         }, {
+            path: '/testPage',
+            component: () => import('@/view/testPage.vue')
+        }, {
             path: '/useSortable_v1',
             component: () => import('@/view/sortablejs_v1.vue')
         }, {

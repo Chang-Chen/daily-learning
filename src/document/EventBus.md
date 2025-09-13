@@ -1,4 +1,5 @@
-
+### 事件订阅总线
+```js
 class EventBus {
     events = {};
 
@@ -34,3 +35,4 @@ bus.on('hahaha', (...args) => {
 setTimeout(() => {
     bus.emit('hahaha', 1, 2, 3, 4);
 }, 3000);
+```

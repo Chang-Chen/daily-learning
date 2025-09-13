@@ -1,5 +1,7 @@
+### Promise队列
+```js
 /**
- * 顺序执行Promise集合
+ * Promise队列
  * @param {Promise[]} functions Promise对象集合
  * @returns 返回集合内的结果
  */
@@ -27,3 +29,4 @@ const f3 = createTask('3');
 mergePromise([f1, f2, f3]).then((res) => {
     console.log('res ===>', res);
 })
+```

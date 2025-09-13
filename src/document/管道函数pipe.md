@@ -1,14 +1,15 @@
+### 管道函数pipe
+```js
 /**
  * 管道函数
- * @param {*} functions 
- * @returns 
+ * @param {*} functions
+ * @returns
  */
 function pipe(functions = []) {
     return (...args) => {
         return functions.reduce(async (prev, cur) => prev.then(cur), Promise.resolve(args));
     }
 }
-
 
 const fn = pipe([
     (data) => {
@@ -32,3 +33,4 @@ const fn = pipe([
 fn(1, 2, 3, 4).then(res => {
     console.log('res ===> ', res);
 });
+```
