@@ -1,6 +1,4 @@
-# 🎊 记录日常学习
-
-### [✨️记录代码碎片✨️](https://github.com/Chang-Chen/day-day-up/blob/main/document/README.md)
+# 🎊 记录日常学习  [✨️代码碎片✨️](https://github.com/Chang-Chen/day-day-up/blob/main/document/README.md)
 
 ## Project Setup
 
