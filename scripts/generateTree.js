@@ -32,10 +32,10 @@ function generateTreeMarkdownStyle(dir, baseDir = dir, indent = '') {
         const relativePath = path.relative(baseDir, fullPath);
 
         if (file.isDirectory()) {
-            tree += `${indent}- **${file.name}/**\n`;
+            tree += `${indent}- **${file.name}/**\n`;  // 每个目录独立一行
             tree += generateTreeMarkdownStyle(fullPath, baseDir, indent + '  ');
         } else {
-            tree += `${indent}- [${file.name}](${relativePath})\n`;
+            tree += `${indent}- [${file.name}](${relativePath})\n`;  // 每个文件独立一行
         }
     });
 

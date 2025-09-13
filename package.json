@@ -14,7 +14,7 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "tree": "node ./scripts/generateTree.js ./document ./document/README.md --style=tree"
+    "tree": "node ./scripts/generateTree.js ./document ./document/README.md --style=markdown"
   },
   "dependencies": {
     "@types/sortablejs": "^1.15.8",
