@@ -1,4 +1,5 @@
 ### 事件订阅总线
+
 ```js
 class EventBus {
     events = {};

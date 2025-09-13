@@ -1,4 +1,5 @@
 ### ES6的写法
+
 ```js
 class Person {
 
@@ -23,6 +24,7 @@ class Person {
 ```
 
 ### 私有变量通过闭包实现
+
 ```js
 var Person = (function() {
     // 私有变量
