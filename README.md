@@ -1,4 +1,4 @@
-# 🎊 记录日常学习  [✨️代码碎片✨️](https://github.com/Chang-Chen/day-day-up/blob/main/document/README.md)
+# 🎊 记录日常学习
 
 ## Project Setup
 
@@ -18,8 +18,6 @@ pnpm dev
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+[✨️日常代码碎片✨️](./document/README.md)
 
-```sh
-pnpm lint
-```
+[✨认识 MCP 协议和服务✨️](./use-mcp-sdk/README.md)
