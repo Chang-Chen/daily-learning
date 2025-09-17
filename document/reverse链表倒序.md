@@ -15,6 +15,7 @@ function reverse(node) {
     return prev;
 }
 
+// { value: 3, next: { value: 2, next: { value: 1, next: null } } }
 console.log(reverse({
     value: 1,
     next: {
@@ -41,6 +42,7 @@ function reverse(node) {
     return root;
 }
 
+// { value: 3, next: { value: 2, next: { value: 1, next: null } } }
 console.log(reverse({
     value: 1,
     next: {
