@@ -26,7 +26,7 @@ console.log(reverse({
 }))
 ```
 
-#### 方法一（递归）：
+#### 方法二（递归）：
 
 ```js
 function reverse(node) {
